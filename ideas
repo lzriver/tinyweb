@@ -1,3 +1,4 @@
 2015年 02月 16日 星期一 00:12:52 CST
 tinyweb should be a multi-process server.I'm wonder if it should have a listener process to handler requests first.
 
+multi-listener server, It runs as daemon process. At start, it forks a number of process. The number is read from configure file.
